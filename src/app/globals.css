@@ -8,3 +8,32 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
+
+.btn {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-border-reveal {}
+
+.btn-border-reveal::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transition: width 0.3s ease;
+  z-index: -1;
+} 
+
+ .btn-border-reveal:hover::after {
+  width: 100%;
+}  
+
+
+
+
+
+
+
