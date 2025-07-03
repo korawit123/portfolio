@@ -1,14 +1,11 @@
 import Image from "next/image";
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa'
-import { motion } from "framer-motion";
 
-
-
-
-const name: string ="const person = ( ditital, expert ) => (korn)"
 
 
 export default function Home() {
+
+  const name: string ="const person = ( ditital, expert ) => (korn)"
   return (
     <main className="mx-auto max-w-6xl min-h-[79vh]">
       <div className="flex justify-around mt-15">
