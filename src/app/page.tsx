@@ -37,7 +37,7 @@ export default function Home() {
           </a>
         </button>
         <button 
-          className="after:bg-[#0077b5] btn btn-border-reveal w-auto px-10 ml-12 py-2
+          className="after:bg-[#0077b5] btn btn-border-reveal w-auto px-10  py-2
                       relative border-[2px] border-solid bg-transparent
                      hover:text-white  hover:border-[#0077b5]  text-black dark:text-white mt-3 ">
           <a
