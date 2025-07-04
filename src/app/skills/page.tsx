@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react";
 
 const Skills = () => {
-  return (
-    <div>My skills</div>
-  )
-}
+  return <div>My skills</div>;
+};
 
-export default Skills
+export default Skills;
+

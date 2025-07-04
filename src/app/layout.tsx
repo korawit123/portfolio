@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-    title: 'Korawit',
-}
+  title: "Korawit",
+};
 
 export default function RootLayout({
   children,
@@ -30,11 +30,11 @@ export default function RootLayout({
                     antialiased bg-white transition-colors
                    dark:bg-gray-900 dark:text-white`}
       >
-         <ThemeProvider>
-            <Navbar/>
-            {children}
-            <Footer/> 
-         </ThemeProvider>
+        <ThemeProvider>
+          <Navbar />
+          {children}
+          <Footer />
+        </ThemeProvider>
       </body>
     </html>
   );

@@ -1,6 +1,5 @@
 @import "tailwindcss";
 
-
 @theme {
   --color-primary: #3a353f;
   --color-purple: #3f3cbb;
@@ -8,13 +7,13 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
-
 .btn {
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
-.btn-border-reveal {}
+.btn-border-reveal {
+}
 
 .btn-border-reveal::after {
   content: "";
@@ -25,15 +24,8 @@
   left: 0;
   transition: width 0.3s ease;
   z-index: -1;
-} 
+}
 
- .btn-border-reveal:hover::after {
+.btn-border-reveal:hover::after {
   width: 100%;
-}  
-
-
-
-
-
-
-
+}
